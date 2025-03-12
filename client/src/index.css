@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  /* --font-display: "Satoshi", "sans-serif"; */
+
+  --color-primary: oklch(0.99 0 0);  /* Please add colors here use-case: bg-primary*/
+  --color-secondary: oklch(0.98 0.04 113.22);
+  /* Others go on */
+  
+  /* ... */
+}
