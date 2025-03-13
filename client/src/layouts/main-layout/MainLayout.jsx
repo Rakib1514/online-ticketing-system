@@ -5,10 +5,11 @@ const MainLayout = () => {
   return (
     <div>
       <Navbar></Navbar>
+      {/* <div>navbar</div> */}
       <main>
         <Outlet />
       </main>
-      <footer>footer</footer>
+      {/* <footer>footer</footer> */}
     </div>
   );
 };
