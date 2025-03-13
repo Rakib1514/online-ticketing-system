@@ -10,7 +10,7 @@ const PublicRoutes = () => {
       <Route path="/" element={<MainLayout />}>
         <Route index element={<Home />} />
         <Route path="/AboutUs" element={<AboutUs />} />
-        <Route path="/*" element={<ErrorPage />} />
+        <Route path="*" element={<ErrorPage />} />
         {/* Other Route goes here */}
         {/* <Route path="/about" element={<AboutPage/>} /> */}
       </Route>
